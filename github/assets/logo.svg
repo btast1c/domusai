@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="30%" style="stop-color:#397eee"/>
+      <stop offset="60%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#93c5fd"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1d4ed8;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#397eee;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#397eee;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="180" rx="16" fill="url(#bg)"/>
+
+  <!-- Decorative orb -->
+  <ellipse cx="300" cy="90" rx="180" ry="60" fill="url(#glow)" filter="url(#softGlow)"/>
+
+  <!-- Top rule -->
+  <line x1="120" y1="30" x2="480" y2="30" stroke="url(#accent)" stroke-width="1"/>
+
+  <!-- House icon -->
+  <polygon points="300,38 270,58 330,58" fill="none" stroke="#397eee" stroke-width="1.5" opacity="0.4"/>
+  <rect x="280" y="58" width="40" height="25" fill="none" stroke="#397eee" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="300" y="115" font-family="'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="800" fill="url(#title)" text-anchor="middle" letter-spacing="8" filter="url(#textGlow)">DOMUS VITA</text>
+
+  <!-- Subtitle -->
+  <text x="300" y="145" font-family="'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle" letter-spacing="6" font-weight="300">AI-POWERED SHARED HOUSING MARKETPLACE</text>
+
+  <!-- Bottom rule -->
+  <line x1="120" y1="160" x2="480" y2="160" stroke="url(#accent)" stroke-width="1"/>
+</svg>

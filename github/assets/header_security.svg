@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 80">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#397eee"/>
+      <stop offset="100%" style="stop-color:#93c5fd"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#397eee;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#60a5fa;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#397eee;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="600" height="80" rx="12" fill="url(#bg)"/>
+  <line x1="40" y1="64" x2="560" y2="64" stroke="url(#line)" stroke-width="1"/>
+  <!-- Shield icon -->
+  <path d="M52,20 L64,26 L64,38 C64,46 52,52 52,52 C52,52 40,46 40,38 L40,26 Z" fill="none" stroke="#397eee" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="52" cy="34" r="4" fill="#60a5fa" opacity="0.4"/>
+  <!-- Lock keyhole -->
+  <rect x="50" y="35" width="4" height="5" rx="1" fill="#93c5fd" opacity="0.5"/>
+  <text x="80" y="44" font-family="'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="url(#text)" letter-spacing="1" filter="url(#glow)">Security &amp; Privacy</text>
+</svg>
