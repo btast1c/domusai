@@ -14,12 +14,7 @@
 
 <p align="center">
   <b>Weekly payments. 1-day approval. AI that actually helps.</b>
-</p>
-
-<p align="center">
-  <img src=".github/assets/atlas.png" width="200" alt="Atlas — Your AI Assistant">
-  <br>
-  <sub><b>Meet Atlas</b> — your AI assistant who knows every property, every neighborhood, and every answer.</sub>
+<br></br>
 </p>
 
 ---
