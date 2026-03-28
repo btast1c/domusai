@@ -21,11 +21,9 @@
   </defs>
   <rect width="600" height="80" rx="12" fill="url(#bg)"/>
   <line x1="40" y1="64" x2="560" y2="64" stroke="url(#line)" stroke-width="1"/>
-  <!-- Storefront/market icon -->
   <polygon points="52,22 38,32 66,32" fill="none" stroke="#397eee" stroke-width="1.5" opacity="0.7"/>
   <rect x="40" y="32" width="24" height="18" fill="none" stroke="#397eee" stroke-width="1.5" opacity="0.6"/>
   <rect x="48" y="38" width="8" height="12" fill="#60a5fa" opacity="0.3"/>
-  <!-- Dollar sign -->
   <text x="70" y="38" font-family="Arial" font-size="10" fill="#93c5fd" opacity="0.5">$</text>
   <text x="80" y="44" font-family="'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="url(#text)" letter-spacing="1" filter="url(#glow)">The Marketplace</text>
 </svg>
